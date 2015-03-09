@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>RMSys</title>
+		<link rel="stylesheet" href="css/style.css" media="screen" type="text/css">
+		<link rel="stylesheet" href="css/style_main.css" media="screen" type="text/css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+	</head>
+	<body onload="operations()">
+		<image src="images/1.png" id="bookmark1" onclick="operations()"></image>
+		<image src="images/2.png" id="bookmark2" onclick="requests()"></image>
+
+		<article id="operations">
+			<table>
+				<tr>
+					<td><input type="button" value="Вывести"></input></td>
+					<td><input type="button" value="Запросить"></input></td>
+					<td><input type="button" value="Аудит"></input></td>
+					<td><input type="button" value="Прочее"></input></td>
+				</tr>
+			</table>
+			
+			<table id="info">
+				<tr>
+					<th>111111</th>
+					<th>222222</th>
+					<th>333333</th>
+					<th>444444</th>
+					<th>555555</th>
+					<th>666666</th>
+				</tr>
+				<tr>
+					<td>111111</td>
+					<td>222222</td>
+					<td>333333</td>
+					<td>444444</td>
+					<td>555555</td>
+					<td>666666</td>
+				</tr>
+			</table>
+		</article>
+		
+		<article id="requests">
+			<ul>
+				<li>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>cccccccccccccccccccccccccccccccccc<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>cccccccccccccccccccccccccccccccccc<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>cccccccccccccccccccccccccccccccccc<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>cccccccccccccccccccccccccccccccccc<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>cccccccccccccccccccccccccccccccccc<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+				<li>cccccccccccccccccccccccccccccccccc<a onclick="remove_task($(this))"><img src="images/del.png"></a></li>
+			</ul>
+		</article>
+	</body>
+</html>
